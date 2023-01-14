@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web scraper</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content">
+            <h2 class="main-heading">Web Scraper</h2>
+            <div class="input-div">
+                <div>
+                    <label class="label">Url:</label>
+                </div>
+                <div>
+                    <input class="input-field" id="input" type="text" placeholder="example: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"/>
+                </div>
+            </div>
+            <div class="input-div">
+                <div>
+                    <label class="label">Classes:</label>
+                </div>
+                <div>
+                    <input class="input-field" id="class-input" type="text" placeholder="example: .section-content"/>
+
+                </div>
+            </div>
+            <div class="btn-div">
+                <button class="scrape-button" id="button">scrape</button>
+                <button class="example-button" id="example-button">Example</button>
+            </div>
+            <span id="message"></span>
+            <div class="data-div">
+                <textarea id="data" class="data-para"></textarea>
+            </div>
+        </div>
+    </div>
+    <p class="info-text"><u>* The response will show inside the text area as stringified JSON.</u></p>
+    <script src="index.js"></script>
+</body>
+</html>

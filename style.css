@@ -1,0 +1,62 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+.main-heading {
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.input-field {
+    padding: 12px 5px;
+    border: 1px solid teal;
+    border-radius: 7px;
+    width: 493px;
+}
+.label {
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.scrape-button {
+    background-color: teal;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    color: white
+}
+.input-div {
+    margin: 20px auto;
+}
+.content {
+    padding: 10px;
+}
+#message {
+    color: green;
+    font-size: 26px;
+}
+.btn-div {
+    margin-bottom: 20px;
+}
+.data-para {
+    width: 500px;
+    height: 500px;
+    border-radius: 7px;
+    border: 1px solid teal;
+}
+.data-div {
+    margin-top: 20px;
+}
+.info-text {
+    margin-top: 20px;
+    color: teal;
+    text-align: center;
+}
+.example-button {
+    background-color: rgb(255, 45, 45);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    color: white
+}
